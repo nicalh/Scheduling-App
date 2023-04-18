@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name">Scheduling App</string>
+    <string name="title_home">CALENDAR</string>
+    <string name="title_dashboard">STAFF</string>
+    <string name="title_notifications">NOTIFICATIONS</string>
+    <string name="title_add_shift">ADD SHIFT</string>
+    <string name="title_edit_shift">EDIT SHIFT</string>
+    <string name="title_add_staff">ADD STAFF</string>
+    <string name="title_edit_staff">EDIT STAFF</string>
+    <string name="testing">Testing</string>
+    <string name="scheduleString">Select date to display scheduled shifts.</string>
+    <string name="currentTab">UNCHANGED</string>
+    <string name="add_shift_string">Add Shift</string>
+    <string name="edit_shift_string">Edit Shift</string>
+    <string name="add_staff_string">Add Staff</string>
+    <string name="edit_staff_string">Edit Staff</string>
+    <string name="addshift_submitbutton">SUBMIT</string>
+    <string name="addshift_cancelbutton">CANCEL</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="headshot">headshot</string>
+    <string name="name">Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="info_icon">info icon</string>
+    <string name="staff_name">Staff Name: </string>
+    <string name="shift_type">Shift Type: </string>
+    <string name="staff_1_name">Staff 1 Name: </string>
+    <string name="staff_2_name">Staff 2 Name: </string>
+    <string name="add_shift_date">Date: </string>
+    <string name="shift_type_morning">Morning</string>
+    <string name="shift_type_evening">Evening</string>
+    <string name="conflict_display_text">CONFLICT DISPLAY</string>
+    <string name="remove_text">Remove</string>
+    <string name="gender">Gender</string>
+    <string name="age">Age</string>
+    <string name="shift_information">Shift Information</string>
+    <string name="upcoming_shifts">Upcoming Shifts</string>
+    <string name="recently_worked_shifts">Recently Worked Shifts</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="button_text_trained">TRAINED</string>
+    <string name="button_text_untrained">UNTRAINED</string>
+    <string name="employment_stat_current">Current Staff</string>
+    <string name="employment_stat_past">Former Staff</string>
+    <string name="temp">temp</string>
+    <string name="back">back</string>
+    <string name="email">Email</string>
+    <string name="experience">Experience</string>
+    <string name="employment_status">Employment Status</string>
+    <string name="last_name">Last Name</string>
+    <string name="first_name">First Name</string>
+    <string name="select_staff">Select Staff</string>
+    <string name="trained_stat_trained">Trained</string>
+    <string name="trained_stat_untrained">Untrained</string>
+    <string name="employed">Employed</string>
+    <string name="missing_information">Missing Information</string>
+    <string name="date">Date</string>
+    <string name="next">next</string>
+    <string name="trained_to_open">Trained to Open</string>
+    <string name="trained_to_close">Trained to Close</string>
+    <string name="upcoming_shifts2">Upcoming Shifts:</string>
+    <string name="submit">SUBMIT</string>
+    <string name="sunday">Sunday</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="skip">SKIP</string>
+
+    <string name="notif_warning_title_text">Warnings</string>
+    <string name="notif_holidays_events_title_text">Upcoming Events</string>
+    <string name="notif_upcoming_shifts_title_text">Upcoming Shifts</string>
+
+    <string name="morning_shift">Morning Shift</string>
+    <string name="afternoon_shift">Afternoon Shift</string>
+    <string name="morningShift">Morning Shift</string>
+    <string name="afternoonShift">Afternoon Shift</string>
+    <string name="weekendShift">Weekend Shift</string>
+    <string name="upcoming">Upcoming</string>
+
+
+    <!-- STRING ARRAYS -->
+    <string-array name="shift_type">
+        <item>Morning</item>
+        <item>Afternoon</item>
+        <item>Weekend</item>
+    </string-array>
+
+    <string-array name="experience_type">
+        <item>Untrained</item>
+        <item>Trained</item>
+    </string-array>
+
+    <string-array name="employment_type">
+        <item>Current Staff</item>
+        <item>Former Staff</item>
+    </string-array>
+
+    <string-array name="availability_type">
+        <item>Unavailable</item>
+        <item>Morning</item>
+        <item>Afternoon</item>
+        <item>Both</item>
+    </string-array>
+
+    <string-array name="weekend_availability_type">
+        <item>Unavailable</item>
+        <item>Available</item>
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ActivityAddStaff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddStaffActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/addstaff_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addstaff_toolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="129dp"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical"
+                android:layout_weight="1"
+                android:text="@string/first_name"
+                android:paddingStart="20dp"
+                android:textSize="22sp" />
+
+            <EditText
+                android:id="@+id/inputFName"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="3"
+                android:ems="10"
+                android:inputType="textPersonName"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="127dp"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical"
+                android:layout_weight="1"
+                android:text="@string/last_name"
+                android:paddingStart="20dp"
+                android:textSize="22sp" />
+
+            <EditText
+                android:id="@+id/inputLName"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="3"
+                android:ems="10"
+                android:inputType="textPersonName"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="93dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:paddingStart="20dp"
+                android:text="Phone"
+                android:textSize="22sp" />
+
+            <EditText
+                android:id="@+id/inputPhoneNum"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="phone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="89dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:paddingStart="20dp"
+                android:text="@string/email"
+                android:textSize="22sp" />
+
+            <EditText
+
+                android:id="@+id/inputEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textEmailAddress" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="169dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:paddingStart="20dp"
+                android:text="@string/trained_to_open"
+                android:gravity="center_vertical"
+                android:textSize="22sp" />
+
+            <Spinner
+                android:id="@+id/addstaff_trained_to_open_spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="3" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="169dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:paddingStart="20dp"
+                android:text="@string/trained_to_close"
+                android:gravity="center_vertical"
+                android:textSize="22sp" />
+
+            <Spinner
+                android:id="@+id/addstaff_trained_to_close_spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="3" />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/addstaff_conflictdisplay"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="Missing Information"
+                android:visibility="invisible"
+                android:gravity="center"
+                android:textColor="@color/red_failure"
+                android:textSize="22sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/addstaff_cancelbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                style="?android:attr/buttonBarButtonStyle"
+                android:textSize="22sp"
+                android:text="@string/addshift_cancelbutton" />
+
+            <Button
+                android:id="@+id/addstaff_nextbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                style="?android:attr/buttonBarButtonStyle"
+                android:textSize="22sp"
+                android:text="@string/next" />
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

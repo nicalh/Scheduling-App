@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="80dp"
+    android:layout_gravity="center_horizontal"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/face"
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:paddingLeft="20dip"
+        android:paddingRight="20dip"
+        android:src="@drawable/ic_smile"
+        android:contentDescription="@string/headshot" />
+
+    <LinearLayout
+        android:layout_width="243dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/firstLine"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:maxLines="1"
+            android:gravity="center_vertical"
+            android:text="@string/name"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/secondLine"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:maxLines="1"
+            android:gravity="center_vertical"
+            android:text="@string/phone_number"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/info_icon"
+        android:paddingLeft="20dip"
+        android:paddingRight="20dip"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/ic_info" />
+
+</LinearLayout>
